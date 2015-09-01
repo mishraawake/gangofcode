@@ -1,0 +1,22 @@
+.home-top-container{
+  margin-top:100px;
+  background:none repeat scroll 0 0 #5fcf80;
+  color:white;
+  padding:30px;
+}
+
+.subheading{
+  animation: 500ms ease-in 1000ms normal forwards 1 running opacity_change;
+    color: #fff;
+    text-align: left;
+    font-size: 18px;
+   
+}
+
+ul.nav li a {
+  color:#111!important;
+}
+body{
+   font-family: "Gotham Rounded A","Gotham Rounded B",Helvetica,Arial,sans-serif;
+
+}

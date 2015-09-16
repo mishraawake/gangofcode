@@ -6,11 +6,16 @@
 }
 
 .subheading{
-  animation: 500ms ease-in 1000ms normal forwards 1 running opacity_change;
+    animation: 500ms ease-in 1000ms normal forwards 1 running opacity_change;
     color: #fff;
+    font-size: 19px;
+    font-weight: normal;
     text-align: left;
-    font-size: 18px;
-   
+}
+
+.h1, h1{
+  font-size: 42px;
+  font-weight: normal;
 }
 
 ul.nav li a {
@@ -19,4 +24,70 @@ ul.nav li a {
 body{
    font-family: "Gotham Rounded A","Gotham Rounded B",Helvetica,Arial,sans-serif;
 
+}
+
+.section-standout{
+    background-color: #f3f3f3;
+    padding: 60px;
+}
+
+
+.course{
+    float: left;
+    width: 32.3%;
+    text-align: center;
+    color:white;
+    margin: 0 1px 1px 0;
+}
+.course a{
+    text-decoration: none;
+    color: #ffffff;
+    background: none no-repeat scroll center center transparent;
+}
+
+.course a:HOVER {
+    opacity: .5;
+    color:white;
+}
+
+
+.course .title {
+    font-size: 150%;
+    font-weight: 400;
+    padding: 20px;
+}
+
+.course .hm{
+    background-image: url("placements.png");
+    background-repeat: no-repeat;
+    height: 200px;
+    background-position: center center ;
+    opacity: 0.52;
+}
+
+.course .coli{
+    background-image: url("placements.png");
+}
+
+.course .corpi{
+    background-image: url("corporate.jpg");
+}
+
+.course .skilli{
+    background-image: url("skill.jpg");
+}
+
+
+
+.college{
+    background-color: #00a4b9;
+}
+.skill{
+    background-color: #149671;
+}
+.corp{
+    background-color: #ac4057;
+}
+.osp{
+    background-color: #e7654e;
 }

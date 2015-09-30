@@ -1,7 +1,25 @@
 .GOC-brand{
     font-weight: bolder;
     font-size: 24px;
-    color: #4285f4;
+}
+.GOC-Gang{
+    color: #4285F4;
+}
+
+.GOC-Of {
+    color: #f0ad4e;
+}
+
+.GOC-Code {
+    color: #f64f18;
+}
+
+.GOC-nav {
+    border-bottom: 3px solid #F0AD4E;
+}
+
+.navbar-nav > li > a{
+    color: #25A2D4 !important;
 }
 
 .jumbotron {

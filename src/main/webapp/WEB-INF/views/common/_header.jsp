@@ -1,3 +1,4 @@
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <!-- Fixed Header and Nav -->
 <!-- Fixed navbar -->
 <nav class="navbar navbar-default navbar-fixed-top GOC-nav">
@@ -9,7 +10,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand GOC-brand" href="/gangofcode">
+            <a class="navbar-brand GOC-brand" href="<c:url value="/"/>">
                 <span class="GOC-Gang">Gang</span>
                 <span class="GOC-Of">of</span>
                 <span class="GOC-Code">Code</span>
@@ -18,10 +19,10 @@
         <div id="navbar" class="navbar-collapse collapse">
             <ul class="nav navbar-nav navbar-right">
                 <li id="offerings"><a href="#">Offerings</a></li>
-                <li id="colleges"><a href="/gangofcode/colleges">Placement Cell</a></li>
+                <li id="colleges"><a href="<c:url value='/colleges'/>">Placement Cell</a></li>
                 <li id="corporate"><a href="#">Corporate</a></li>
                 <li id="professionals"><a href="#">Professionals</a></li>
-                <li id="aboutus"><a href="/gangofcode/aboutus">About Us</a></li>
+                <li id="aboutus"><a href="<c:url value='/aboutus'/>">About Us</a></li>
             </ul>
         </div><!--/.nav-collapse -->
     </div>

@@ -17,7 +17,7 @@
 <!-- Main jumbotron for a primary marketing message or call to action -->
 <div class="jumbotron">
     <div class="container">
-        <h1>Our Mission</h1>
+        <h1>Mission</h1>
         <p>High quality and easy learning for all.</p>
     </div>
 </div>

@@ -20,7 +20,7 @@
         <h1>Learn with us</h1>
         <p>What you learn makes less difference than how you learn. Learn to Excel, learn to LEAD.</p>
         <!-- Go to the Offerings page. -->
-        <!--<p><a class="btn btn-primary btn-lg" href="#" role="button">Know more &raquo;</a></p> -->
+        <p><a class="btn btn-primary btn-lg" href="<c:url value="/offerings" />" role="button">Know more &raquo;</a></p>
     </div>
 </div>
 
@@ -29,7 +29,7 @@
     <div class="row">
         <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
             <div class="course college">
-                <a href="#">
+                <a href="<c:url value="/colleges" />">
                     <div class="title">Placement Cell</div>
                     <div class="hm coli"></div>
                 </a>
@@ -38,7 +38,7 @@
 
         <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
             <div class="course skill">
-                <a href="#">
+                <a href="<c:url value="/professionals" />">
                     <div class="title">Skill Enhancement</div>
                     <div class="hm skilli"></div>
                 </a>
@@ -47,7 +47,7 @@
 
         <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
             <div class="course corp">
-                <a href="#">
+                <a href="<c:url value="/corporate" />">
                     <div class="title">Corporate Training</div>
                     <div class="hm corpi"></div>
                 </a>

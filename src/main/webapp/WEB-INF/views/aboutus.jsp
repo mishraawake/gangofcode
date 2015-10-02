@@ -57,7 +57,6 @@
                 career.
             </p>
 
-
             <h3>Corporate Training</h3>
             <p>We are living in a world where there is cut-throat competition. We must stay competent enough for our
                 survival and  triumph. And for that to happen a continuous inflow of high quality training of cutting

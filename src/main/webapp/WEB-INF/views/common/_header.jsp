@@ -18,10 +18,10 @@
         </div>
         <div id="navbar" class="navbar-collapse collapse">
             <ul class="nav navbar-nav navbar-right">
-                <li id="offerings"><a href="#">Offerings</a></li>
+                <li id="offerings"><a href="<c:url value='/offerings'/>">Offerings</a></li>
                 <li id="colleges"><a href="<c:url value='/colleges'/>">Placement Cell</a></li>
-                <li id="corporate"><a href="#">Corporate</a></li>
-                <li id="professionals"><a href="#">Professionals</a></li>
+                <li id="corporate"><a href="<c:url value='/corporate'/>">Corporate</a></li>
+                <li id="professionals"><a href="<c:url value='/professionals'/>">Professionals</a></li>
                 <li id="aboutus"><a href="<c:url value='/aboutus'/>">About Us</a></li>
             </ul>
         </div><!--/.nav-collapse -->
@@ -35,8 +35,8 @@
         goc.navigation.setActive(currentNav.id);
     }catch(err){
         /*
-         It could be due to "home" as the nav item with "home" does not exist.
-         Ignore.
+         It could be due to unknown nav item id value like "home".
+         None should be selected. So simply ignore.
          */
     }
 </script>

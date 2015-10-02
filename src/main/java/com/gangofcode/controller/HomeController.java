@@ -26,4 +26,19 @@ public class HomeController {
 		return new ModelAndView("colleges");
 	}
 
+	@RequestMapping(value = "offerings")
+	public ModelAndView offerings(){
+		return new ModelAndView("offerings");
+	}
+
+	@RequestMapping(value = "corporate")
+	public ModelAndView corporate(){
+		return new ModelAndView("corporate");
+	}
+
+	@RequestMapping(value = "professionals")
+	public ModelAndView professionals(){
+		return new ModelAndView("professionals");
+	}
+
 }

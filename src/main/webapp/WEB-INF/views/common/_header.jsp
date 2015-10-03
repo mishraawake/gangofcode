@@ -10,7 +10,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand GOC-brand" href="<c:url value="/"/>">
+            <a class="navbar-brand GOC-brand" href="/">
                 <span class="GOC-Gang">Gang</span>
                 <span class="GOC-Of">of</span>
                 <span class="GOC-Code">Code</span>

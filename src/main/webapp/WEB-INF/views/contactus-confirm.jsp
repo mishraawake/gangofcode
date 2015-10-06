@@ -17,9 +17,8 @@
 	<!-- Main jumbotron for a primary marketing message or call to action -->
 	<div class="jumbotron">
 		<div class="container">
-			<h1>Write to us..</h1>
-			<p>Please fill following form in case you would like to have more
-				clarification for our program or you can write us to <email>business@gangofcode.in</email>.</p>
+			<h1>Have Queries?</h1>
+			<p>We would happy to address them as soon as possible.</p>
 		</div>
 	</div>
 
@@ -27,8 +26,9 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-10 col-md-10 col-sm-10 col-xs-10">
+				<div class="alert alert-success" role="alert">Message sent.</div>
 				<p>
-				 Thank you very much for showing interest in us. We will get back to you as soon as possible.
+				 Thank you very much for showing interest. We will get back to you as soon as possible.
 				</p>
 			</div>
 		</div>

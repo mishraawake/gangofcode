@@ -15,6 +15,12 @@
 		<jsp:param name="currentNavId" value="corporate" />
 	</jsp:include>
 
+	<!-- Main jumbotron for a primary marketing message or call to action -->
+	<div class="jumbotron">
+		<div class="container">
+			<h1>Queries</h1>
+		</div>
+	</div>
 
 	<!-- Main Body Container -->
 	<div class="container">
@@ -23,10 +29,11 @@
 				<table class="table">
 					<c:forEach items="${messages}" var="message">
                          <tr>
-                            <td> <c:out value="${message.msg}"/>   </td>
-                            <td> <c:out value="${message.email}"/>   </td>
-                            <td> <c:out value="${message.mobile}"/>   </td>
-                            <td> <fmt:formatDate pattern="yyyy-MM-dd H:m" value="${message.creationTime}" />
+							 <td> <c:out value="${message.name}"/>   </td>
+							 <td> <c:out value="${message.email}"/>   </td>
+							 <td> <c:out value="${message.mobile}"/>   </td>
+							 <td> <c:out value="${message.msg}"/>   </td>
+                             <td> <fmt:formatDate pattern="yyyy-MM-dd H:m" value="${message.creationTime}" />
              </td>
                             
                          </tr>

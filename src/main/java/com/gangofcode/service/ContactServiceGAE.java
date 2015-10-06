@@ -36,6 +36,7 @@ public class ContactServiceGAE implements IContactService {
 
 		entity.setProperty("updationTime", new Date());
 		entity.setProperty("creationTime", new Date());
+		entity.setProperty("name", contactMsg.getName());
 		entity.setProperty("email", contactMsg.getEmail());
 		entity.setProperty("mobile", contactMsg.getMobile());
 		entity.setProperty("message", contactMsg.getMsg());
@@ -54,6 +55,7 @@ public class ContactServiceGAE implements IContactService {
 		for (Entity result : pd.asIterable()) {
 			ContactMsg contactMsg = new ContactMsg();
 			contactMsg.setCreationTime((Date) result.getProperty("creationTime"));
+			contactMsg.setName((String) result.getProperty("name"));
 			contactMsg.setEmail((String) result.getProperty("email"));
 			contactMsg.setId(result.getKey().getId());
 			contactMsg.setMobile((String) result.getProperty("mobile"));

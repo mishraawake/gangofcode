@@ -13,6 +13,7 @@ public class ContactMsg {
 	}
 
 	private Serializable id;
+	private String name;
 	private String msg;
 	private String email;
 	private String mobile;
@@ -94,4 +95,11 @@ public class ContactMsg {
 		this.updationTime = updationTime;
 	}
 
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
 }

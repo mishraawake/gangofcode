@@ -18,7 +18,7 @@
 	<!-- Main jumbotron for a primary marketing message or call to action -->
 	<div class="jumbotron">
 		<div class="container">
-			<h1>Queries</h1>
+			<h1>Submitted Queries</h1>
 		</div>
 	</div>
 

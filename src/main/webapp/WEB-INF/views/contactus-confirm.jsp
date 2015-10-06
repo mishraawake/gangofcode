@@ -18,7 +18,7 @@
 	<div class="jumbotron">
 		<div class="container">
 			<h1>Have Queries?</h1>
-			<p>We would happy to address them as soon as possible.</p>
+			<p>We would be happy to address them as soon as possible.</p>
 		</div>
 	</div>
 

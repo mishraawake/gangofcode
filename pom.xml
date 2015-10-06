@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>gangofcode</groupId>
@@ -14,6 +15,7 @@
 		<java.version>1.6</java.version>
 		<spring.version>4.2.0.RELEASE</spring.version>
 		<cglib.version>2.2.2</cglib.version>
+		<google.app.engine>1.9.27</google.app.engine>
 	</properties>
 
 	<dependencies>
@@ -37,6 +39,14 @@
 			<scope>compile</scope>
 		</dependency>
 
+
+		<dependency>
+			<groupId>com.google.appengine</groupId>
+			<artifactId>appengine-api-1.0-sdk</artifactId>
+			<version>${google.app.engine}</version>
+		</dependency>
+
+
 		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-test</artifactId>
@@ -44,6 +54,7 @@
 			<type>jar</type>
 			<scope>test</scope>
 		</dependency>
+
 
 		<!-- CGLib for @Configuration -->
 		<dependency>
